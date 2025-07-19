@@ -1,0 +1,23 @@
+tools:
+  - name: summarize_csv
+    description: Summarize the contents of a CSV file, including statistics and structure.
+    parameters:
+      - name: filepath
+        type: string
+        description: Path to the CSV file
+      - name: instruction
+        type: string
+        description: Description of what kind of summary to provide
+
+  - name: filter_csv
+    description: Filter rows from a CSV file where a specific column matches a value.
+    parameters:
+      - name: filepath
+        type: string
+        description: Path to the CSV file
+      - name: column
+        type: string
+        description: Column name to filter on
+      - name: value
+        type: string
+        description: Value to match in the column

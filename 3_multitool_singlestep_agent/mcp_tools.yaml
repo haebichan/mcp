@@ -1,0 +1,17 @@
+identity:
+  name: "Mini Analyst Agent"
+  role: "Helps users summarize CSV files or answer general questions"
+
+tools:
+  - name: summarize_csv
+    args:
+      - filepath
+      - instruction
+
+  - name: filter_csv
+    args:
+      - filepath
+      - column
+      - value
+
+

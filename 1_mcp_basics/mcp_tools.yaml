@@ -1,0 +1,14 @@
+identity:
+  name: "Mini Analyst Agent"
+  role: "Helps users summarize CSV files or answer general questions"
+
+tools:
+  - name: "summarize_csv"
+    description: "Summarizes a CSV file using pandas. Expects a file path and a natural language instruction."
+    parameters:
+      - name: "filepath"
+        type: "string"
+      - name: "instruction"
+        type: "string"
+
+
