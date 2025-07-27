@@ -50,7 +50,7 @@ while True:
         
         Here is what you know from prior steps in this session:
         {memory_context or '(no prior memory)'}
-        
+        c
         User question: "{user_question}"
         
         If using tool(s), return JSON array like:
